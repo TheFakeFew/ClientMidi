@@ -318,7 +318,7 @@ function updateUI(note, maxnotes)
 	
 	local mult = 30
 	
-	txt.Text = "Track: "..currentSong.." ; Instances: "..#ui:GetChildren()-3 .."\n"..note.."/"..maxnotes.." ["..string.rep("/", doneratio*mult)..string.rep(" ", leftratio*mult).."]"
+	txt.Text = "Track: "..currentSong.." ; Instances: "..#ui:GetChildren()-5 .."\n"..note.."/"..maxnotes.." ["..string.rep("/", doneratio*mult)..string.rep(" ", leftratio*mult).."]"
 	ui.commands.ScrollingFrame.Volume.PlaceholderText = "Volume: "..volume
 	ui.commands.ScrollingFrame.Looped.Text = "Looped: "..tostring(looped)
 end
