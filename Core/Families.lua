@@ -30,7 +30,8 @@ return  {
           [62] = "rbxassetid://31173799"
        },
        ["settings"] =  {
-          ["Gain"] = 0.1
+          ["Gain"] = 0.1,
+          ["Offset"] = 5
        }
     },
     ["accordion"] =  {
