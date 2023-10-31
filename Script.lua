@@ -326,7 +326,7 @@ end
 function registermidis()
 	local data = game:GetService("HttpService"):JSONDecode(doHttpGet("https://api.github.com/repos/TheFakeFew/ClientMidi/contents/Midis", {
 		["Accept"] = "application/vnd.github+json",
-		["Authorization"] = "Bearer ghu_2lFuZ53pXjtCVq3DVpMvcozAamqa8m2MjVBn",
+		["Authorization"] = "Bearer ghu_rGTou2M70DJtOX3CBrcFDzpC63XOCk2egMla",
 		["X-GitHub-Api-Version"] = "2022-11-28"
 	}))
 
