@@ -324,11 +324,7 @@ function updateUI(note, maxnotes)
 end
 
 function registermidis()
-	local data = game:GetService("HttpService"):JSONDecode(doHttpGet("https://api.github.com/repos/TheFakeFew/ClientMidi/contents/Midis", {
-		["Accept"] = "application/vnd.github+json",
-		["Authorization"] = "Bearer ghu_rGTou2M70DJtOX3CBrcFDzpC63XOCk2egMla",
-		["X-GitHub-Api-Version"] = "2022-11-28"
-	}))
+	local data = game:GetService("HttpService"):JSONDecode(doHttpGet("https://zv7i.dev/clientmidis"))
 
 	for i, v in next, data do
 		local t = ui.Temp:Clone()
